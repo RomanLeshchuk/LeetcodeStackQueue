@@ -69,4 +69,4 @@ class MyQueue:
         return res
 
     def empty(self) -> bool:
-        return len(self._data_stack) == 0
+        return self._data_stack.is_empty()
